@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>lesson 10</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<a href="" class="header__logo">
+					Uzbeklar.net
+				</a>
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li><a href="" class="header__link">Фильмы</a>
+							<ul class="header__sub-list">
+								<li><a href="" class="header__sub-link">Все жанры</a></li>
+								<li><a href="" class="header__sub-link">Приключения</a></li>
+								<li><a href="" class="header__sub-link">Фанстастика</a></li>
+								<li><a href="" class="header__sub-link">Боевик</a></li>
+								<li><a href="" class="header__sub-link">Комедия</a></li>
+								<li><a href="" class="header__sub-link">Триллер</a></li>
+								<li><a href="" class="header__sub-link">Военный</a></li>
+								<li><a href="" class="header__sub-link">Драма</a></li>
+								<li><a href="" class="header__sub-link">Криминал</a></li>
+								<li><a href="" class="header__sub-link">Биография</a></li>
+							</ul>
+						</li>
+						<li><a href="" class="header__link">Kлипы</a>
+							<ul class="header__sub-list">
+								<li><a href="" class="header__sub-link">Все жанры</a></li>
+								<li><a href="" class="header__sub-link">Приключения</a></li>
+								<li><a href="" class="header__sub-link">Фанстастика</a></li>
+								<li><a href="" class="header__sub-link">Боевик</a></li>
+								<li><a href="" class="header__sub-link">Комедия</a></li>
+								<li><a href="" class="header__sub-link">Триллер</a></li>
+								<li><a href="" class="header__sub-link">Военный</a></li>
+							</ul>
+						</li>
+						<li><a href="" class="header__link">Музыка</a>
+							<ul class="header__sub-list">
+								<li><a href="" class="header__sub-link">Все жанры</a></li>
+								<li><a href="" class="header__sub-link">Приключения</a></li>
+								<li><a href="" class="header__sub-link">Фанстастика</a></li>
+								<li><a href="" class="header__sub-link">Боевик</a></li>
+								<li><a href="" class="header__sub-link">Комедия</a></li>
+								<li><a href="" class="header__sub-link">Триллер</a></li>
+								<li><a href="" class="header__sub-link">Военный</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<form action="#" class="form__serch">
+					<div class="serch__input">
+						<input placeholder="Поиск..." type="text" id="serch">
+					</div>
+				</form>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__inner">
+				<div class="form">
+					<div class="form__title title">Регистрация</div>
+					<form class="form__body" action="#">
+						<div class="form__line">
+							<div class="form__input">
+								<input placeholder="Имя*" name="username" type="text">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__input">
+								<input placeholder="Фамилия*" name="surname" type="text">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__input">
+								<input minlength="6" maxlength="12" placeholder="Логин*"
+									name="login" type="text">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__input">
+								<input placeholder="Email*" name="email" type="email">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__input">
+								<input minlength="6" maxlength="12" placeholder="Пароль*"
+									name="password" type="password">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__input">
+								<input minlength="6" maxlength="12" placeholder="Повторите пароль*"
+									name="password" type="password">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__radio">
+								<input class="radio" id="men" checked value="men"
+									name="sex" type="radio">
+								<label class="form__label" for="men">Мужчина</label>
+								<input class="radio" id="women" value="women"
+									name="sex" type="radio">
+								<label class="form__label" for="women">Женщина</label>
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__checkbox">
+								<input id="agree" type="checkbox">
+								<label class="form__label" for="agree">Я согласен с</label>
+								<a href="" class="agree-link"><span>Условия и правила</span></a>
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__button">
+								<button type="submit" class="form__btn">Регистрация</button>
+							</div>
+						</div>
+					</form>
+					<div form__footer>
+						<span class="form__text">У вас есть аккаунт?</span>
+						<a class="form__link" href="#ac-link">Войти</a>
+					</div>
+				</div>
+				<!-- //======================================================================================================================================================== -->
+				<div class="form">
+					<div id="ac-link" class="form__title title">Вход</div>
+					<form action="#" class="form__body">
+						<div class="form__line">
+							<div class="form__input">
+								<input type="email" placeholder="Почта*">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__input">
+								<input type="password" id="password" placeholder="Пароль*">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__checkbox">
+								<input type="checkbox" id="cheack1">
+								<label class="form__label" for="cheack1">Запомнить меня</label>
+								<a href="#recovery" class="fogot-link"><span>Забыли пароль?</span></a>
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__button">
+								<button type="submit" class="form__btn">Войти</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<!-- //======================================================================================================================================================== -->
+				<div class="form">
+					<div id="recovery" class="form__title form__title_m title">Восстановление
+						пароля</div>
+					<div class="form__subtitle">Введите Email, на него будет выслан новый
+						пароль</div>
+					<form action="#" class="form__body">
+						<div class="form__line">
+							<div class="form__input">
+								<input id="em2" type="email" placeholder="Почта*">
+							</div>
+						</div>
+						<div class="form__line">
+							<a href="#ac-link" class="form__recovery">Вернуться в форму авторизации</a>
+						</div>
+						<div class="form__line">
+							<div class="form__button">
+								<button type="submit" class="form__btn">Отправить</button>
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__info">* Если вы не получили письмо с паролем,
+								проверьте папку Спам</div>
+						</div>
+					</form>
+					<span class="form__text">У вас нет аккаунта?</span>
+					<a href="" class="form__link">Регистрация</a>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
